@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/profile-page/static/css/main.ff678d04.css",
-    "main.js": "/profile-page/static/js/main.67126783.js",
-    "static/media/UBC Course Bot.png": "/profile-page/static/media/UBC Course Bot.590218878e87893dcc92.png",
+    "main.js": "/profile-page/static/js/main.208b3cac.js",
     "static/media/Website.png": "/profile-page/static/media/Website.4aaec6a6a25006b0c923.png",
     "static/media/React.png": "/profile-page/static/media/React.6bcffb56bd0efaa47767.png",
     "static/media/Python.png": "/profile-page/static/media/Python.dc906e9aa21b2a930657.png",
     "static/media/Discord.png": "/profile-page/static/media/Discord.bc925fcf18e4cd9abae1.png",
     "static/media/profilePic.jpeg": "/profile-page/static/media/profilePic.730df70b01d95ea8f2da.jpeg",
+    "static/media/UBC Course Bot.png": "/profile-page/static/media/UBC Course Bot.595f6c5fe227f48d9bd8.png",
     "static/media/PostgreSQL.png": "/profile-page/static/media/PostgreSQL.44f1ba0f8cccb0414fc0.png",
     "static/media/MySQL.png": "/profile-page/static/media/MySQL.6d08a3e9a32d6f720472.png",
     "static/media/HTML.png": "/profile-page/static/media/HTML.1ea6ec6d4169dd4c0c08.png",
@@ -18,10 +18,10 @@
     "static/media/Typescript.png": "/profile-page/static/media/Typescript.c75384d0dd17e9b4a295.png",
     "index.html": "/profile-page/index.html",
     "main.ff678d04.css.map": "/profile-page/static/css/main.ff678d04.css.map",
-    "main.67126783.js.map": "/profile-page/static/js/main.67126783.js.map"
+    "main.208b3cac.js.map": "/profile-page/static/js/main.208b3cac.js.map"
   },
   "entrypoints": [
     "static/css/main.ff678d04.css",
-    "static/js/main.67126783.js"
+    "static/js/main.208b3cac.js"
   ]
 }
