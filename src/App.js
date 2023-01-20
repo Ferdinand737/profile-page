@@ -24,12 +24,12 @@ function App() {
       <Content title={"About Me"}>
         <Intro>
           <p>
-          {`Greetings!, I'm Ferdinand`}
+          {`Hello!, I'm Ferdinand`}
           </p>
           <p>
           {`I am a 4th year computer science student at UBC's Okanagan Campus.
            I love creating things with code, and finding ways to apply my programming skills.
-           If I am not working on an assignemt for a class or studying, I am usually working on a little project.`}
+           In between classes and assignments, I like working on my projects.`}
           </p>
         </Intro>
         <br></br>
