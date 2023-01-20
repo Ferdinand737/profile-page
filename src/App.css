@@ -1,0 +1,59 @@
+a {
+  color: rgb(52, 171, 226)
+}
+
+.content {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  width: 800px;
+  top: 100px;
+}
+
+.content-inner {
+  position: relative;
+  top: 100px;
+}
+
+.intro-section {
+  display: flex;
+  align-items: center;
+}
+
+.intro-paragraph {
+  padding: 20px;
+}
+
+.intro-image {
+  border-radius: 50%;
+}
+
+.icon-text-field {
+  display: flex;
+  align-items: center;
+}
+
+.institution-logo{
+  border-radius: 50%;
+}
+
+.education-info{
+    margin-left: 4%;
+}
+
+.employment-info-header{
+  display: flex;
+  justify-content:space-between;
+  margin: 0;
+}
+
+.employment-info-title{
+  /* display: flex; */
+  margin-bottom: 0;
+}
+
+.employment-info-list{
+  margin-top: 0;
+}
+
+
