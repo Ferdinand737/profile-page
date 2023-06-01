@@ -4,6 +4,8 @@ https://ferdinand737.github.io/profile-page/
 
 ### Getting Started
 
+Follow the 'pre-requisites' and 'step 2' instructions [here](https://github.com/gitname/react-gh-pages) for setting up node and creating a react app. 
+
 Run the development server:
 
 ```bash
