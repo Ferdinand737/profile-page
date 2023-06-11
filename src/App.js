@@ -55,7 +55,23 @@ function App() {
         when='2014 - 2016'
         />  
       </Section>
-      <Section title='Experience' cols={1}>  
+      <Section title='Experience' cols={1}>
+        <Experience
+            title='Network Traffic Analyst'
+            employer='Plume'
+            location='Remote'
+            when='May, 2023 - Sep, 2023'
+            details={[
+              'Configured OpenWRT router with Open VPN and tcpdump',
+              'Used custom commandline tools and wireshark to analyze packets',
+              'Wrote "signatures" in custom programming language to uniquely identify traffic'
+            ]}
+            skills={[
+              'Git',
+              'Commandline',
+              'Linux'
+            ]}
+            />
         <Experience
           title='Junior Software Developer'
           employer='Ocean Networks Canada'
@@ -82,17 +98,16 @@ function App() {
         <></>
       </Section>
       <Section title='Projects' cols={2}>
-          <Project
-          name='UBC Course Bot'
-          url='https://github.com/Ferdinand737/UBC-Course-Bot'
-          description='A discord bot that takes a course as an input and replies with
-          a visualization of the pre-requisite courses.'
-          skills={[
-            'Python',
-            'Discord',
-            'Selenium'
-          ]}
-         />
+        <Project
+        name='Parrot Discord Bot'
+        url='https://github.com/Ferdinand737/voice-clone-bot'
+        description="Parrot is an interactive voice cloning bot created using ElevenLabs and OpenAi APIs. The bot takes a voice and a string as inputs, joins your voice channel and speaks the string in the chosen voice."
+        skills={[
+         'Discord',
+         'MySQL',
+         'Python'
+        ]}
+        />
         <Project
           name='Website'
           url='https://github.com/Ferdinand737/profile-page'
@@ -102,6 +117,17 @@ function App() {
             'HTML',
             'CSS',
             'Javascript'
+          ]}
+          />
+          <Project
+          name='UBC Course Bot'
+          url='https://github.com/Ferdinand737/UBC-Course-Bot'
+          description='A discord bot that takes a course as an input and replies with
+          a visualization of the pre-requisite courses.'
+          skills={[
+            'Python',
+            'Discord',
+            'Selenium'
           ]}
          />
          <Project
@@ -124,22 +150,6 @@ function App() {
           'Java',
           'MySQL',
           'Docker'
-         ]}
-         />
-         <Project
-         name='Codingame Bot'
-         url='https://github.com/Ferdinand737/Codingame-Broomstick-Flyers-Bot'
-         description='I got really into Codingame a while back and created this bot for the "Broomstick-flyers" game.'
-         skills={[
-          'Java'
-         ]}
-         /> 
-         <Project
-         name='COSC 310 Project'
-         url='https://github.com/Ferdinand737/COSC310-Individual-Project'
-         description="In this project my group and I created a simple Chat Bot. The bot has a simple GUI and made use of google places and Wikpedia API's, as well as Stanford NLP libraries"
-         skills={[
-          'Java'
          ]}
          />
       </Section>
