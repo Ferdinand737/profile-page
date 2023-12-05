@@ -27,9 +27,12 @@ function App() {
           {`Hello!, I'm Ferdinand`}
           </p>
           <p>
-          {`I am a 4th year computer science student at UBC's Okanagan Campus.
-           I love creating things with code, and finding ways to apply my programming skills.
-           In between classes and assignments, I like working on my projects.`}
+              {`I am a 4th year computer science student at UBC's Okanagan Campus.
+              I love creating things with code, and finding ways to apply my programming skills.
+              In between classes and assignments, I like working on my projects. `}
+              <a href={require('./resume.pdf')} download="ferdinand-haaben-resume.pdf">
+                  Download my resume
+              </a>
           </p>
         </Intro>
         <br></br>
@@ -64,12 +67,13 @@ function App() {
             details={[
               'Configured OpenWRT router with Open VPN and tcpdump',
               'Used custom commandline tools and wireshark to analyze packets',
-              'Wrote "signatures" in custom programming language to uniquely identify traffic'
+              'Wrote "signatures" in custom programming language to uniquely identify traffic',
+              'Automated company processes with python scripts'
             ]}
             skills={[
               'Git',
-              'Commandline',
-              'Linux'
+              'Linux',
+              'Python'
             ]}
             />
         <Experience
@@ -87,12 +91,17 @@ function App() {
             'React',
             'Java',
             'Selenium',
-            'HTML',
-            'CSS',
-            'Javascript',
-            'Typescript',
+            'HTML5',
+            'CSS3',
+            'JavaScript',
+            'TypeScript',
             'PostgreSQL',
-            'Git'
+            'Git',
+            'Jira',
+            'Confluence',
+            'Bitbucket',
+            'Jenkins',
+            'Postman'
           ]}
           />
         <></>
@@ -101,11 +110,13 @@ function App() {
         <Project
         name='Parrot Discord Bot'
         url='https://github.com/Ferdinand737/voice-clone-bot'
-        description="Parrot is an interactive voice cloning bot created using ElevenLabs and OpenAi APIs. The bot takes a voice and a string as inputs, joins your voice channel and speaks the string in the chosen voice."
+        description="Parrot is an interactive voice cloning bot created using ElevenLabs and OpenAi APIs. 
+                      The bot takes a voice and a string as inputs, joins your voice channel and speaks the string in the chosen voice. 
+                      I also created a webapp where users can see their usage and buy more characters through stripe."
         skills={[
-         'Discord',
          'MySQL',
-         'Python'
+         'Python',
+         'Django'
         ]}
         />
         <Project
@@ -114,11 +125,39 @@ function App() {
           description='You are looking at it.'
           skills={[
             'React',
-            'HTML',
-            'CSS',
-            'Javascript'
+            'HTML5',
+            'CSS3',
+            'JavaScript'
           ]}
           />
+          <Project
+         name='TA Scheduler'
+         url=''
+         description='This project was done as a directed studies at UBCO. It is a system that receives applications for teaching assistants and allocates them to courses according to their qualifications and schedule.
+                      I was primarily responsible for bugfixes and adding some new features.'
+         skills={[
+          'Laravel',
+          'MySQL',
+          'PHP',
+          'Linux',
+          'jQuery',
+          'JavaScript'
+         ]}
+         />
+         <Project
+         name='Office Hours'
+         url='https://github.com/ubco-db/office-hours'
+         description='This project was done as an honours thesis at UBCO. I was involved in expanding the system to function accross multiple organizations beyond UBC.
+         This involved building out several new features such as a comprehensive admin panel, invite links for courses front-end changes and more.'
+         skills={[
+          'TypeScript',
+          'React',
+          'NextJs',
+          'NestJs',
+          'NodeJs',
+          'PostgreSQL'
+         ]}
+         />
           <Project
           name='UBC Course Bot'
           url='https://github.com/Ferdinand737/UBC-Course-Bot'
@@ -126,7 +165,6 @@ function App() {
           a visualization of the pre-requisite courses.'
           skills={[
             'Python',
-            'Discord',
             'Selenium'
           ]}
          />
@@ -139,17 +177,6 @@ function App() {
          skills={[
           'Python',
           'Selenium'
-         ]}
-         />
-         <Project
-         name='COSC 304 Group Project'
-         url='https://github.com/Ferdinand737/COSC304-GroupProject'
-         description='This was the main project for my databases course. We created a simple shopping 
-         website with accounts, shopping cart, admin panel, and a database to store everything.'
-         skills={[
-          'Java',
-          'MySQL',
-          'Docker'
          ]}
          />
       </Section>
