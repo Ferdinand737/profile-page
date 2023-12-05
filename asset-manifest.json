@@ -1,31 +1,22 @@
 {
   "files": {
     "main.css": "/profile-page/static/css/main.bd46d009.css",
-    "main.js": "/profile-page/static/js/main.b64971b6.js",
+    "main.js": "/profile-page/static/js/main.a5a771ab.js",
     "static/media/Website.png": "/profile-page/static/media/Website.4aaec6a6a25006b0c923.png",
-    "static/media/React.png": "/profile-page/static/media/React.6bcffb56bd0efaa47767.png",
-    "static/media/Python.png": "/profile-page/static/media/Python.dc906e9aa21b2a930657.png",
-    "static/media/Discord.png": "/profile-page/static/media/Discord.bc925fcf18e4cd9abae1.png",
     "static/media/profilePic.jpeg": "/profile-page/static/media/profilePic.730df70b01d95ea8f2da.jpeg",
     "static/media/UBC Course Bot.png": "/profile-page/static/media/UBC Course Bot.595f6c5fe227f48d9bd8.png",
-    "static/media/PostgreSQL.png": "/profile-page/static/media/PostgreSQL.44f1ba0f8cccb0414fc0.png",
-    "static/media/Java.png": "/profile-page/static/media/Java.b0165e8d24a652199ca6.png",
-    "static/media/MySQL.png": "/profile-page/static/media/MySQL.6d08a3e9a32d6f720472.png",
     "static/media/COSC 304 Group Project.png": "/profile-page/static/media/COSC 304 Group Project.4b4b112a894991f56b63.png",
-    "static/media/Linux.png": "/profile-page/static/media/Linux.3db32b955e9b61f35998.png",
-    "static/media/HTML.png": "/profile-page/static/media/HTML.1ea6ec6d4169dd4c0c08.png",
     "static/media/University of British Columbia.png": "/profile-page/static/media/University of British Columbia.b43390e5ce1f9d74e19f.png",
-    "static/media/Selenium.png": "/profile-page/static/media/Selenium.e9bb97c4ded36e6116c2.png",
-    "static/media/CSS.png": "/profile-page/static/media/CSS.9ae3937bffd95846d7a3.png",
+    "static/media/resume.pdf": "/profile-page/static/media/resume.d9fcd17b07aa0db701f5.pdf",
     "static/media/Parrot Discord Bot.png": "/profile-page/static/media/Parrot Discord Bot.5fab910e94995309bd11.png",
-    "static/media/Typescript.png": "/profile-page/static/media/Typescript.c75384d0dd17e9b4a295.png",
+    "static/media/Office Hours.png": "/profile-page/static/media/Office Hours.3139b67b6b827768de06.png",
     "static/media/COSC 310 Project.png": "/profile-page/static/media/COSC 310 Project.944728f120c7ea472ce1.png",
     "index.html": "/profile-page/index.html",
     "main.bd46d009.css.map": "/profile-page/static/css/main.bd46d009.css.map",
-    "main.b64971b6.js.map": "/profile-page/static/js/main.b64971b6.js.map"
+    "main.a5a771ab.js.map": "/profile-page/static/js/main.a5a771ab.js.map"
   },
   "entrypoints": [
     "static/css/main.bd46d009.css",
-    "static/js/main.b64971b6.js"
+    "static/js/main.a5a771ab.js"
   ]
 }
