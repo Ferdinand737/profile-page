@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/profile-page/static/css/main.bd46d009.css",
-    "main.js": "/profile-page/static/js/main.a5a771ab.js",
+    "main.js": "/profile-page/static/js/main.1c47367f.js",
     "static/media/Website.png": "/profile-page/static/media/Website.4aaec6a6a25006b0c923.png",
     "static/media/profilePic.jpeg": "/profile-page/static/media/profilePic.730df70b01d95ea8f2da.jpeg",
     "static/media/UBC Course Bot.png": "/profile-page/static/media/UBC Course Bot.595f6c5fe227f48d9bd8.png",
@@ -9,14 +9,15 @@
     "static/media/University of British Columbia.png": "/profile-page/static/media/University of British Columbia.b43390e5ce1f9d74e19f.png",
     "static/media/resume.pdf": "/profile-page/static/media/resume.d9fcd17b07aa0db701f5.pdf",
     "static/media/Parrot Discord Bot.png": "/profile-page/static/media/Parrot Discord Bot.5fab910e94995309bd11.png",
+    "static/media/remix.png": "/profile-page/static/media/remix.d6e77ff6b0186b27e463.png",
     "static/media/Office Hours.png": "/profile-page/static/media/Office Hours.3139b67b6b827768de06.png",
     "static/media/COSC 310 Project.png": "/profile-page/static/media/COSC 310 Project.944728f120c7ea472ce1.png",
     "index.html": "/profile-page/index.html",
     "main.bd46d009.css.map": "/profile-page/static/css/main.bd46d009.css.map",
-    "main.a5a771ab.js.map": "/profile-page/static/js/main.a5a771ab.js.map"
+    "main.1c47367f.js.map": "/profile-page/static/js/main.1c47367f.js.map"
   },
   "entrypoints": [
     "static/css/main.bd46d009.css",
-    "static/js/main.a5a771ab.js"
+    "static/js/main.1c47367f.js"
   ]
 }
