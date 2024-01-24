@@ -27,6 +27,9 @@ export default function Skills(props){
             'NextJs': 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg',
             'NestJs': 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nestjs/nestjs-plain.svg',
             'NodeJs': 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg',
+            'Yarn': 'https://raw.githubusercontent.com/devicons/devicon/master/icons/yarn/yarn-original.svg',
+            'TailwindCSS': 'https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg',
+            'Remix' : require('../images/remix.png')
         };
         return skillIconUrls[skill] || ''; 
     }
