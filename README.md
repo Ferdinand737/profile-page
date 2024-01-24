@@ -18,5 +18,5 @@ This project was inspired by [reccewal.sh](https://github.com/Brikwerk/reecewal.
 
 Deploy with:
 ```
-npm deploy
+npm run deploy
 ```
