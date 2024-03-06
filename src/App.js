@@ -24,15 +24,18 @@ function App() {
       <Content title={"About Me"}>
         <Intro>
           <p>
-          {`Hello!, I'm Ferdinand`}
+          {`Hello!, I'm Ferdinand 👋`}
           </p>
           <p>
-              {`I am a 4th year computer science student at UBC's Okanagan Campus.
-              I love creating things with code, and finding ways to apply my programming skills.
-              In between classes and assignments, I like working on my projects. `}
-              <a href={require('./resume.pdf')} download="ferdinand-haaben-resume.pdf">
-                  Download my resume
-              </a>
+              {`
+                I am a fourth year computer science student at the University of British Columbia set to graduate in April 2024.
+                I am passionate about software development and have experience in full-stack web development using many of the most popular frameworks and libraries.
+              `}
+          </p>
+          <p>
+            <a href={require('./resume.pdf')} download="ferdinand-haaben-resume.pdf">
+                Download my resume
+            </a>
           </p>
         </Intro>
         <br></br>
@@ -56,7 +59,7 @@ function App() {
           <Education 
             title='Bachelor of Science (Honours)'
             school='University of British Columbia'
-            specialization='Major: Computer Science'
+            specialization='Computer Science'
             when='2019 - 2024'
           />
           <Education 
@@ -76,12 +79,15 @@ function App() {
                 'Configured OpenWRT router with Open VPN and tcpdump',
                 'Used custom commandline tools and wireshark to analyze packets',
                 'Wrote "signatures" in custom programming language to uniquely identify traffic',
-                'Automated company processes with python scripts'
+                'Automated company processes with python scripts',
+                'Analyzed large datasets with pandas and spark',
               ]}
               skills={[
                 'Git',
                 'Linux',
-                'Python'
+                'Python',
+                'Spark',
+                'Pandas',
               ]}
             />
           <Experience
@@ -91,8 +97,8 @@ function App() {
             when='May, 2022 - Dec, 2022'
             details={[
               'Created and maintained UI tests with Java + Selenium',
-              'Designed and implemented web-apps with React',
-              'Implemented back-end services for web-apps in Java',
+              'Designed and implemented front-end features with React',
+              'Implemented back-end services in Java',
               'Participated in scrum meetings, code review and agile SDLC'
             ]}
             skills={[
@@ -119,11 +125,11 @@ function App() {
             url='https://github.com/Ferdinand737/voice-clone-bot'
             description="Parrot is an interactive voice cloning bot created using ElevenLabs and OpenAi APIs. 
                           The bot takes a voice and a string as inputs, joins your voice channel and speaks the string in the chosen voice. 
-                          I also created a webapp where users can see their usage and buy more characters through stripe."
+                          I also created a web-app where users can see their usage and buy more characters through stripe."
             skills={[
-            'MySQL',
-            'Python',
-            'Django'
+              'MySQL',
+              'Python',
+              'Django'
             ]}
           />
           <Project
@@ -139,7 +145,8 @@ function App() {
               'NodeJs',
               'Yarn',
               'TailwindCSS',
-              'PostgreSQL'
+              'PostgreSQL',
+              'Docker',
             ]}
           />
           <Project
@@ -151,7 +158,9 @@ function App() {
               'React',
               'Remix',
               'NodeJs',
-              'PostgreSQL'
+              'PostgreSQL',
+              'TailwindCSS',
+              'Docker',
             ]}
           />
           <Project
@@ -163,8 +172,9 @@ function App() {
               'Laravel',
               'MySQL',
               'PHP',
-              'jQuery',
-              'JavaScript'
+              'Jquery',
+              'JavaScript',
+              'Bootstrap',
             ]}
           />
           <Project
@@ -172,6 +182,37 @@ function App() {
             url='https://github.com/Ferdinand737/UBC-Course-Bot'
             description='A discord bot that takes a course as an input and replies with
             a visualization of the pre-requisite courses.'
+            skills={[
+              'Python',
+              'Selenium',
+              'Pandas',
+            ]}
+          />
+          <Project
+            name='Platonix'
+            url='https://platonix.app/'
+            description='
+              Platonix is a web-app that uses ai to generate powerpoint presentations. 
+              Platonix was created by a team of 4 students at UBCO. I was responsilbe for much of the back-end logic to build the presentations. 
+              I also played a major role in the archtechture and deployment of the system.'
+            skills={[
+              'Python',
+              'Django',
+              'Bootstrap',
+              'HTML5',
+              'CSS3',
+              'JavaScript',
+              'Jquery',
+              'PostgreSQL',
+              'Docker',
+            ]}
+          />
+          <Project
+            name='UBC Auto Register'
+            url='https://github.com/Ferdinand737/UBC-Auto-Register'
+            description='A program that automatically registers the user in their desired courses at UBC
+            and sends them a text upon succesfull registration.
+            I created this because I did not like constantly checking for course availabiliy during registration season.'
             skills={[
               'Python',
               'Selenium'
@@ -186,17 +227,6 @@ function App() {
               'HTML5',
               'CSS3',
               'JavaScript'
-            ]}
-          />
-          <Project
-            name='UBC Auto Register'
-            url='https://github.com/Ferdinand737/UBC-Auto-Register'
-            description='A program that automatically registers the user in their desired courses at UBC
-            and sends them a text upon succesfull registration.
-            I created this because I did not like constantly checking for course availabiliy during registration season.'
-            skills={[
-              'Python',
-              'Selenium'
             ]}
           />
         </Section>

@@ -27,7 +27,6 @@ export default function Experience(props){
             </h4>          
             {props.details?(renderDetails(props.details)):<></>}
             {props.skills?(<Skills skills={props.skills}/>):<></>}  
-            <br></br>
        </div>
     )
 }
