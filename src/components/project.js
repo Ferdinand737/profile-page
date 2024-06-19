@@ -15,14 +15,18 @@ export default function Project(props){
         <div className="project-section">
             <h3 className="icon-text-field">
                 {imageExists(props.name) && (
-                    <img className="project-logo" src={require(`../images/${props.name}.png`)} width='50' height='50' alt={props.name} />
+                    <div>
+                        <img className="project-logo" src={require(`../images/${props.name}.png`)} width='50' height='50' alt={props.name} />
+                        &nbsp;&nbsp;
+                    </div>
                 )}
                 {props.url ? (
                     <span>
                         <a href={props.url} target="_blank" rel="noopener noreferrer">
                             {props.name}
                         </a>
-                        <OpenInNewSharp/>
+                        &nbsp;
+                        <OpenInNewSharp style={{ fontSize: '18px', verticalAlign: 'middle' }} />
                     </span>
                 ) : (
                     <span>{props.name}</span>

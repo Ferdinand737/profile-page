@@ -24,17 +24,16 @@ function App() {
       <Content title={"About Me"}>
         <Intro>
           <p>
-          {`Hello!, I'm Ferdinand 👋`}
+          {`Hello, I'm Ferdinand! 👋`}
           </p>
-          <p>
+          <p className='description'>
               {`
-                I am a fourth year computer science student at the University of British Columbia set to graduate in April 2024.
-                I am passionate about software development and have experience in full-stack web development using many of the most popular frameworks and libraries.
+                I'm a Computer Science graduate with extensive experience in both front-end and back-end design and implementation. I am proficient in a variety of programming languages and the latest web frameworks. I've built full-stack applications from scratch using Node, Django, and Laravel. Additionally, I have significant experience in creating AI-enhanced applications using LLMs and working with large datasets for data analysis. My passion lies in building innovative solutions through code. I am always eager to tackle new challenges and build quality software.
               `}
           </p>
           <p>
             <a href={require('./resume.pdf')} download="ferdinand-haaben-resume.pdf">
-                Download my resume
+                Download My Resume
             </a>
           </p>
         </Intro>
@@ -58,18 +57,37 @@ function App() {
         <Section title='Education'cols={2}>
           <Education 
             title='Bachelor of Science (Honours)'
+            work='Thesis: Teaching With AI'
+            workLink='https://open.library.ubc.ca/soa/cIRcle/collections/undergraduateresearch/52966/items/1.0443555'
             school='University of British Columbia'
             specialization='Computer Science'
             when='2019 - 2024'
           />
           <Education 
             title='Trades Diploma'
+            work=''
+            workLink=''
             school='Northern Lights College'
             specialization='Aircraft Maintenance Engineering'
             when='2014 - 2016'
           />  
         </Section>
         <Section title='Experience' cols={1}>
+          {/* <Experience
+            title='Software Developer'
+            employer='Cybird'
+            location='Remote'
+            when='June, 2024 - Present'
+            details={[
+              'Developed and maintained node web application',
+
+            ]}
+            skills={[
+              'NodeJs',
+              'Linux',
+
+            ]}
+          /> */}
           <Experience
               title='Network Traffic Analyst'
               employer='Plume'
@@ -121,22 +139,11 @@ function App() {
         </Section>
         <Section title='Projects' cols={2}>
           <Project
-            name='Parrot Discord Bot'
-            url='https://github.com/Ferdinand737/voice-clone-bot'
-            description="Parrot is an interactive voice cloning bot created using ElevenLabs and OpenAi APIs. 
-                          The bot takes a voice and a string as inputs, joins your voice channel and speaks the string in the chosen voice. 
-                          I also created a web-app where users can see their usage and buy more characters through stripe."
-            skills={[
-              'MySQL',
-              'Python',
-              'Django'
-            ]}
-          />
-          <Project
             name='Office Hours'
-            url='https://github.com/ubco-db/office-hours'
-            description='This project was done as an honours thesis at UBCO. I was involved in expanding the system to function accross multiple organizations beyond UBC.
-            This involved building out several new features such as a comprehensive admin panel, invite links for courses front-end changes and more.'
+            url='https://open.library.ubc.ca/soa/cIRcle/collections/undergraduateresearch/52966/items/1.0443555'
+            description='For my honors thesis, I built an asynchronous question center that uses a RAG (Retrieval Augmented Generation) based approach to answer student questions.
+                          Students are able to mark AI-generated answers as helpful or not helpful. The teaching staff can then review the not helpful answers and update the responses.
+                          The system was integrated into an existing office hours queue system.'
             skills={[
               'TypeScript',
               'React',
@@ -147,6 +154,19 @@ function App() {
               'TailwindCSS',
               'PostgreSQL',
               'Docker',
+            ]}
+          />
+          <Project
+            name='Parrot Discord Bot'
+            url='https://github.com/Ferdinand737/voice-clone-bot'
+            description="Parrot is an interactive voice cloning bot created using ElevenLabs and OpenAi APIs. 
+                          The bot takes a voice and a string as inputs, joins your voice channel and speaks the string in the chosen voice.
+                          Due to the high cost of the ElevenLabs API, I implemented a system to limit the number of characters a user can use.
+                          I also created a web-app where users can see their usage and buy more characters through stripe."
+            skills={[
+              'MySQL',
+              'Python',
+              'Django'
             ]}
           />
           <Project
@@ -166,8 +186,7 @@ function App() {
           <Project
             name='TA Scheduler'
             url=''
-            description='This project was done as a directed studies at UBCO. It is a system that receives applications for teaching assistants and allocates them to courses according to their qualifications and schedule.
-                          I was primarily responsible for bugfixes and adding some new features.'
+            description='This project was done as a directed studies at UBCO. It is a system that receives applications for teaching assistants and allocates them to courses according to their qualifications and schedule.'
             skills={[
               'Laravel',
               'MySQL',
@@ -194,7 +213,7 @@ function App() {
             description='
               Platonix is a web-app that uses ai to generate powerpoint presentations. 
               Platonix was created by a team of 4 students at UBCO. I was responsilbe for much of the back-end logic to build the presentations. 
-              I also played a major role in the archtechture and deployment of the system.'
+              I also played a major role in the architechture and deployment of the system.'
             skills={[
               'Python',
               'Django',

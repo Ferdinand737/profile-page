@@ -1,4 +1,4 @@
-import {ArticleSharp, HomeWorkSharp,EventSharp} from '@mui/icons-material';
+import {ArticleSharp, HomeWorkSharp,EventSharp, NotesSharp} from '@mui/icons-material';
 export default function Education(props){
 
     const getImageMapping = (school) => {
@@ -18,6 +18,15 @@ export default function Education(props){
                 {props.title}
             </h3>
             <div className='education-info'>
+                {props.work ? (
+                    <span>
+                        <p className='icon-text-field'>
+                         <NotesSharp />&nbsp;<a href={props.workLink}>{props.work}</a>
+                        </p>
+                    </span>
+                ) : (
+                    <></>
+                )}
                 <span>
                     <p className='icon-text-field'><ArticleSharp/>&nbsp;{props.specialization}</p>
                 </span>
