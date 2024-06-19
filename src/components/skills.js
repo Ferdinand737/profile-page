@@ -78,7 +78,7 @@ export default function Skills(props) {
             {orderedSkills.map((skill) => (
                 props.skills.includes(skill) && (
                     <span key={skill}>
-                        <img title={`${skill}`} src={getSkillIconUrl(skill)} width='30' height='30'></img>
+                        <img title={`${skill}`} src={getSkillIconUrl(skill)} width='30' height='30' alt={`${skill} icon`}></img>
                         &nbsp;&nbsp;
                     </span>
                 )

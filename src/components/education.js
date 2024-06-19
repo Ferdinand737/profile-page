@@ -13,7 +13,7 @@ export default function Education(props){
     return(
         <div className='education-section'>
             <h3 className="icon-text-field">
-                <img className="institution-logo" src={getImageMapping(props.school)} width='50' height='50'></img>
+                <img className="institution-logo" src={getImageMapping(props.school)} width='50' height='50' alt={`${props.school} logo`}></img>
                 &nbsp;&nbsp;
                 {props.title}
             </h3>
