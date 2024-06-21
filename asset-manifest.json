@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/profile-page/static/css/main.e834cced.css",
-    "main.js": "/profile-page/static/js/main.4f4b8f1d.js",
+    "main.js": "/profile-page/static/js/main.b2e64e9d.js",
     "static/media/Website.png": "/profile-page/static/media/Website.4aaec6a6a25006b0c923.png",
+    "static/media/resume.pdf": "/profile-page/static/media/resume.a2e5ad620d1e5350f4d4.pdf",
     "static/media/profilePic.jpeg": "/profile-page/static/media/profilePic.730df70b01d95ea8f2da.jpeg",
     "static/media/UBC Course Bot.png": "/profile-page/static/media/UBC Course Bot.595f6c5fe227f48d9bd8.png",
     "static/media/COSC 304 Group Project.png": "/profile-page/static/media/COSC 304 Group Project.4b4b112a894991f56b63.png",
     "static/media/ubc.png": "/profile-page/static/media/ubc.a806d3ab55ec4406a05a.png",
-    "static/media/resume.pdf": "/profile-page/static/media/resume.dfb98be1763f018f03cb.pdf",
     "static/media/Parrot Discord Bot.png": "/profile-page/static/media/Parrot Discord Bot.5fab910e94995309bd11.png",
     "static/media/remix.png": "/profile-page/static/media/remix.d6e77ff6b0186b27e463.png",
     "static/media/Office Hours.png": "/profile-page/static/media/Office Hours.3139b67b6b827768de06.png",
     "static/media/COSC 310 Project.png": "/profile-page/static/media/COSC 310 Project.944728f120c7ea472ce1.png",
     "index.html": "/profile-page/index.html",
     "main.e834cced.css.map": "/profile-page/static/css/main.e834cced.css.map",
-    "main.4f4b8f1d.js.map": "/profile-page/static/js/main.4f4b8f1d.js.map"
+    "main.b2e64e9d.js.map": "/profile-page/static/js/main.b2e64e9d.js.map"
   },
   "entrypoints": [
     "static/css/main.e834cced.css",
-    "static/js/main.4f4b8f1d.js"
+    "static/js/main.b2e64e9d.js"
   ]
 }
