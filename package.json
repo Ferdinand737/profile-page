@@ -1,7 +1,7 @@
 {
   "name": "profile-page",
   "version": "0.1.0",
-  "homepage": "https://Ferdinand737.github.io/profile-page",
+  "homepage": "./",
   "private": true,
   "dependencies": {
     "@emotion/styled": "^11.10.5",
