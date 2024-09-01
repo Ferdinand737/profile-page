@@ -4,7 +4,7 @@ import Content from './components/content';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import * as React from 'react';
-import {GitHub, LinkedIn} from '@mui/icons-material';
+import { GitHub, LinkedIn } from '@mui/icons-material';
 import Section from './components/section';
 import Education from './components/education';
 import Contact from './components/contact';
@@ -24,38 +24,38 @@ function App() {
       <Content title={"About Me"}>
         <Intro>
           <p>
-          {`Hello, I'm Ferdinand! 👋`}
+            {`Hello, I'm Ferdinand! 👋`}
           </p>
           <p className='description'>
-              {`
+            {`
                 I'm a Computer Science graduate with extensive experience in both front-end and back-end design and implementation. I am proficient in a variety of programming languages and the latest web frameworks. I've built full-stack applications from scratch using Node, Django, and Laravel. Additionally, I have significant experience in creating AI-enhanced applications using LLMs and working with large datasets for data analysis. My passion lies in building innovative solutions through code. I am always eager to tackle new challenges and build quality software.
               `}
           </p>
           <p>
             <a href={require('./resume.pdf')} download="ferdinand-haaben-resume.pdf">
-                Download My Resume
+              Download My Resume
             </a>
           </p>
         </Intro>
         <br></br>
         <Section title='Contact' cols={2}>
-          <Contact 
-            service='GitHub' 
-            link='https://github.com/Ferdinand737' 
+          <Contact
+            service='GitHub'
+            link='https://github.com/Ferdinand737'
             username='Ferdinand737'
           >
-            <GitHub/>
+            <GitHub />
           </Contact>
-          <Contact 
-            service='LinkedIn' 
-            link='https://www.linkedin.com/in/ferdinand-haaben-a46887208/' 
+          <Contact
+            service='LinkedIn'
+            link='https://www.linkedin.com/in/ferdinand-haaben-a46887208/'
             username='Ferdinand Haaben'
           >
-            <LinkedIn/>
+            <LinkedIn />
           </Contact>
         </Section>
-        <Section title='Education'cols={2}>
-          <Education 
+        <Section title='Education' cols={2}>
+          <Education
             title='Bachelor of Science (Honours)'
             work='Thesis: Teaching With AI'
             workLink='https://open.library.ubc.ca/soa/cIRcle/collections/undergraduateresearch/52966/items/1.0443555'
@@ -63,51 +63,58 @@ function App() {
             specialization='Computer Science'
             when='2019 - 2024'
           />
-          <Education 
+          <Education
             title='Trades Diploma'
             work=''
             workLink=''
             school='Northern Lights College'
             specialization='Aircraft Maintenance Engineering'
             when='2014 - 2016'
-          />  
+          />
         </Section>
         <Section title='Experience' cols={1}>
-          {/* <Experience
-            title='Software Developer'
-            employer='Cybird'
-            location='Remote'
-            when='June, 2024 - Present'
+          <Experience
+            title='Laravel Developer'
+            employer='Nerd North Inc'
+            location='Vernon, B.C.'
+            when='July, 2024 - Present'
             details={[
-              'Developed and maintained node web application',
-
+              'Designed and implemented backend architecture and database schema',
+              'Created a responsive front-end interface using Tailwind, Alpine.js, and Livewire.',
+              'Conducted thorough testing and deployed the application to the production environment.',
+              'Integrated multiple third-party APIs including Printful and Stripe for seamless operations.',
+              'Managed the entire project lifecycle from requirements generation to final testing and deployment.'
             ]}
             skills={[
-              'NodeJs',
+              'Laravel',
+              'PHP',
+              'TailwindCSS',
+              'AlpineJs',
+              'Livewire',
               'Linux',
-
+              'MySQL',
             ]}
-          /> */}
+          />
           <Experience
-              title='Network Traffic Analyst'
-              employer='Plume'
-              location='Remote'
-              when='May, 2023 - Sep, 2023'
-              details={[
-                'Configured OpenWRT router with Open VPN and tcpdump',
-                'Used custom commandline tools and wireshark to analyze packets',
-                'Wrote "signatures" in custom programming language to uniquely identify traffic',
-                'Automated company processes with python scripts',
-                'Analyzed large datasets with pandas and spark',
-              ]}
-              skills={[
-                'Git',
-                'Linux',
-                'Python',
-                'Spark',
-                'Pandas',
-              ]}
-            />
+            title='Network Traffic Analyst'
+            employer='Plume'
+            location='Remote'
+            when='May, 2023 - Sep, 2023'
+            details={[
+              'Configured OpenWRT router with Open VPN and tcpdump',
+              'Used custom commandline tools and wireshark to analyze packets',
+              'Wrote "signatures" in custom programming language to uniquely identify traffic',
+              'Automated company processes with python scripts',
+              'Analyzed large datasets with pandas and spark',
+            ]}
+            skills={[
+              'Git',
+              'Linux',
+              'Python',
+              'Spark',
+              'Pandas',
+            ]}
+          />
           <Experience
             title='Junior Software Developer'
             employer='Ocean Networks Canada'
@@ -135,7 +142,7 @@ function App() {
               'Jenkins',
               'Postman'
             ]}
-            />
+          />
         </Section>
         <Section title='Projects' cols={2}>
           <Project
@@ -257,5 +264,5 @@ function App() {
 export default App;
 
 
-  
+
 
