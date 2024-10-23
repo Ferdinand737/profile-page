@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/profile-page/static/css/main.e834cced.css",
-    "main.js": "/profile-page/static/js/main.1074bbb9.js",
+    "main.js": "/profile-page/static/js/main.a276611a.js",
     "static/media/Website.png": "/profile-page/static/media/Website.4aaec6a6a25006b0c923.png",
-    "static/media/profilePic.jpeg": "/profile-page/static/media/profilePic.730df70b01d95ea8f2da.jpeg",
+    "static/media/profilePic.png": "/profile-page/static/media/profilePic.aa6edf5f901a07951f2e.png",
     "static/media/UBC Course Bot.png": "/profile-page/static/media/UBC Course Bot.595f6c5fe227f48d9bd8.png",
     "static/media/resume.pdf": "/profile-page/static/media/resume.0a6dfd4ddc106fb8629c.pdf",
     "static/media/COSC 304 Group Project.png": "/profile-page/static/media/COSC 304 Group Project.4b4b112a894991f56b63.png",
@@ -14,10 +14,10 @@
     "static/media/COSC 310 Project.png": "/profile-page/static/media/COSC 310 Project.944728f120c7ea472ce1.png",
     "index.html": "/profile-page/index.html",
     "main.e834cced.css.map": "/profile-page/static/css/main.e834cced.css.map",
-    "main.1074bbb9.js.map": "/profile-page/static/js/main.1074bbb9.js.map"
+    "main.a276611a.js.map": "/profile-page/static/js/main.a276611a.js.map"
   },
   "entrypoints": [
     "static/css/main.e834cced.css",
-    "static/js/main.1074bbb9.js"
+    "static/js/main.a276611a.js"
   ]
 }
