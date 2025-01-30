@@ -1,7 +1,6 @@
 {
   "name": "profile-page",
   "version": "0.1.0",
-  "homepage": "/profile-page",
   "private": true,
   "dependencies": {
     "@emotion/styled": "^11.10.5",
