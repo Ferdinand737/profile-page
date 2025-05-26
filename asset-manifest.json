@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/profile-page/static/css/main.e834cced.css",
-    "main.js": "/profile-page/static/js/main.3b6e9239.js",
-    "static/media/Website.png": "/profile-page/static/media/Website.4aaec6a6a25006b0c923.png",
-    "static/media/profilePic.jpeg": "/profile-page/static/media/profilePic.e21951b82df8e689a9b8.jpeg",
-    "static/media/UBC Course Bot.png": "/profile-page/static/media/UBC Course Bot.595f6c5fe227f48d9bd8.png",
-    "static/media/resume.pdf": "/profile-page/static/media/resume.d352b002f8daa6786d33.pdf",
-    "static/media/COSC 304 Group Project.png": "/profile-page/static/media/COSC 304 Group Project.4b4b112a894991f56b63.png",
-    "static/media/ubc.png": "/profile-page/static/media/ubc.a806d3ab55ec4406a05a.png",
-    "static/media/Parrot Discord Bot.png": "/profile-page/static/media/Parrot Discord Bot.5fab910e94995309bd11.png",
-    "static/media/remix.png": "/profile-page/static/media/remix.d6e77ff6b0186b27e463.png",
-    "static/media/Office Hours.png": "/profile-page/static/media/Office Hours.3139b67b6b827768de06.png",
-    "static/media/COSC 310 Project.png": "/profile-page/static/media/COSC 310 Project.944728f120c7ea472ce1.png",
-    "index.html": "/profile-page/index.html",
-    "main.e834cced.css.map": "/profile-page/static/css/main.e834cced.css.map",
-    "main.3b6e9239.js.map": "/profile-page/static/js/main.3b6e9239.js.map"
+    "main.css": "/static/css/main.e834cced.css",
+    "main.js": "/static/js/main.1e1541fc.js",
+    "static/media/Website.png": "/static/media/Website.4aaec6a6a25006b0c923.png",
+    "static/media/profilePic.jpeg": "/static/media/profilePic.e21951b82df8e689a9b8.jpeg",
+    "static/media/UBC Course Bot.png": "/static/media/UBC Course Bot.595f6c5fe227f48d9bd8.png",
+    "static/media/resume.pdf": "/static/media/resume.1b550ab3a3111655b5bb.pdf",
+    "static/media/COSC 304 Group Project.png": "/static/media/COSC 304 Group Project.4b4b112a894991f56b63.png",
+    "static/media/ubc.png": "/static/media/ubc.a806d3ab55ec4406a05a.png",
+    "static/media/Parrot Discord Bot.png": "/static/media/Parrot Discord Bot.5fab910e94995309bd11.png",
+    "static/media/remix.png": "/static/media/remix.d6e77ff6b0186b27e463.png",
+    "static/media/Office Hours.png": "/static/media/Office Hours.3139b67b6b827768de06.png",
+    "static/media/COSC 310 Project.png": "/static/media/COSC 310 Project.944728f120c7ea472ce1.png",
+    "index.html": "/index.html",
+    "main.e834cced.css.map": "/static/css/main.e834cced.css.map",
+    "main.1e1541fc.js.map": "/static/js/main.1e1541fc.js.map"
   },
   "entrypoints": [
     "static/css/main.e834cced.css",
-    "static/js/main.3b6e9239.js"
+    "static/js/main.1e1541fc.js"
   ]
 }
