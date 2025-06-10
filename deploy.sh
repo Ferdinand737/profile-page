@@ -6,7 +6,7 @@ cd ~/profile-page
 
 # Pull the latest changes from the repo
 git reset --hard HEAD
-git pull origin main
+git pull origin master
 
 # Install dependencies (if needed)
 npm install --legacy-peer-deps
