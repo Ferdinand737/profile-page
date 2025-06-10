@@ -19,7 +19,7 @@ npm run build
 pm2 delete ferdinand-profile || true
 
 # 2. Start the application with the PORT environment variable
-pm2 start npm --name ferdinand-profile --watch . --autorestart --no-tailable --output /dev/null --error /dev/null --env PORT=3001
+pm2 start npm --name ferdinand-profile --output /dev/null --error /dev/null --env PORT=3001
 
 # 3. Save the updated process list.
 pm2 save
