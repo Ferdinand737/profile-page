@@ -1,9 +1,7 @@
 module.exports = {
   apps: [{
     name: "ferdinand-profile",
-    script: "npx",
-    args: "serve -s build -p 3001",
-    interpreter: "none",
+    script: "./server.js",
     env: {
       NODE_ENV: "production",
     }
