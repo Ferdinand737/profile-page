@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e834cced.css",
-    "main.js": "/static/js/main.1e1541fc.js",
+    "main.js": "/static/js/main.7fcfe39c.js",
     "static/media/Website.png": "/static/media/Website.4aaec6a6a25006b0c923.png",
     "static/media/profilePic.jpeg": "/static/media/profilePic.e21951b82df8e689a9b8.jpeg",
     "static/media/UBC Course Bot.png": "/static/media/UBC Course Bot.595f6c5fe227f48d9bd8.png",
@@ -14,10 +14,10 @@
     "static/media/COSC 310 Project.png": "/static/media/COSC 310 Project.944728f120c7ea472ce1.png",
     "index.html": "/index.html",
     "main.e834cced.css.map": "/static/css/main.e834cced.css.map",
-    "main.1e1541fc.js.map": "/static/js/main.1e1541fc.js.map"
+    "main.7fcfe39c.js.map": "/static/js/main.7fcfe39c.js.map"
   },
   "entrypoints": [
     "static/css/main.e834cced.css",
-    "static/js/main.1e1541fc.js"
+    "static/js/main.7fcfe39c.js"
   ]
 }
