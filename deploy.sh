@@ -1,18 +1,23 @@
+#!/bin/bash
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
-# Navigate to the project directory
 cd ~/profile-page
 
-# Pull the latest changes from the repo
 git reset --hard HEAD
-git pull origin main
+git pull origin master
 
-# Install dependencies (if needed)
-npm install --legacy-peer-deps
+npm install
 
-# Build the production Next.js app
 npm run build
 
-# Restart the application with PM2
-pm2 restart ferdinand-profile
+npm install -g serve
+
+if pm2 list | grep -q "profile-page"; then
+    pm2 restart profile-page
+else
+    pm2 start serve --name "profile-page" -- -s build -p 3001
+fi
+
+pm2 save
