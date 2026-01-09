@@ -42,9 +42,16 @@ export default function ProfileHeader() {
         </Typography>
 
         <Typography variant="body1" sx={{ mb: 2, maxWidth: 600 }}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris.
+          Full Stack Software Developer with experience across modern web
+          frameworks including Next.js, TypeScript, Django, and Laravel. Strong
+          interest in blockchain and Web3 technologies, with hands-on experience
+          building decentralized applications and smart contract–enabled
+          platforms. Actively integrates AI into applications to enhance
+          functionality and improve development workflows. Passionate about
+          self-hosting and infrastructure management, maintaining a personal
+          server environment to deploy and manage personal projects. Experienced
+          in building and maintaining end-to-end systems, from backend services
+          to frontend user interfaces.
         </Typography>
 
         <Stack
