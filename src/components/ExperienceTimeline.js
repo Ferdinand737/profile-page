@@ -479,9 +479,11 @@ export default function ExperienceTimeline() {
 
   return (
     <Box>
-      <Typography variant="h4" component="h2" gutterBottom sx={{ mb: 3 }}>
-        How I Got Here
-      </Typography>
+      <Box sx={{ py: 4, display: 'flex', justifyContent: 'center' }}>
+        <Typography variant="h4" component="h2" gutterBottom sx={{ mb: 3 }}>
+          How I Got Here
+        </Typography>
+      </Box>
 
       <Timeline position="alternate">
         {sortedTimelineData.map((item, index) => (

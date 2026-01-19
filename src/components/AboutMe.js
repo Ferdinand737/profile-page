@@ -5,10 +5,10 @@ import ExperienceTimeline from './ExperienceTimeline';
 export default function AboutMe() {
   return (
     <Container maxWidth="lg">
-      <Box sx={{ py: 4 }}>
+      <Box sx={{ py: 4, display: 'flex', justifyContent: 'center' }}>
         <ProfileHeader />
-        <ExperienceTimeline />
       </Box>
+      <ExperienceTimeline />
     </Container>
   );
 }
