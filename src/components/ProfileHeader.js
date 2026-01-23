@@ -14,7 +14,7 @@ export default function ProfileHeader() {
     <Box
       sx={{
         display: 'flex',
-        flexDirection: { xs: 'column', md: 'row' },
+        flexDirection: 'column',
         alignItems: 'center',
         gap: 4,
         p: 3,
@@ -32,7 +32,7 @@ export default function ProfileHeader() {
         }}
       />
 
-      <Box sx={{ flex: 1, textAlign: { xs: 'center', md: 'left' } }}>
+      <Box sx={{ textAlign: 'center' }}>
         <Typography variant="h3" component="h1" gutterBottom>
           Ferdinand Haaben
         </Typography>
@@ -42,23 +42,17 @@ export default function ProfileHeader() {
         </Typography>
 
         <Typography variant="body1" sx={{ mb: 2, maxWidth: 600 }}>
-          Full Stack Software Developer with experience across modern web
-          frameworks including Next.js, TypeScript, Django, and Laravel. Strong
-          interest in blockchain and Web3 technologies, with hands-on experience
-          building decentralized applications and smart contract–enabled
-          platforms. Actively integrates AI into applications to enhance
-          functionality and improve development workflows. Passionate about
-          self-hosting and infrastructure management, maintaining a personal
-          server environment to deploy and manage personal projects. Experienced
-          in building and maintaining end-to-end systems, from backend services
-          to frontend user interfaces.
+          I'm a Full Stack Developer who builds end-to-end applications using
+          Next.js, Django, and Laravel. I have a strong interest in blockchain
+          technology, Web3 and building decentralized apps. I enjoy integrating
+          AI into my projects, whether for voice cloning, content generation, or
+          enhancing user workflows. Outside of client work, I run my own
+          self-hosted infrastructure to deploy and manage personal projects.
+          Don't hesitate to reach out if you have any questions or want to chat
+          about my work.
         </Typography>
 
-        <Stack
-          direction="row"
-          spacing={1}
-          justifyContent={{ xs: 'center', md: 'flex-start' }}
-        >
+        <Stack direction="row" spacing={1} justifyContent="center">
           <IconButton
             component="a"
             href="https://github.com/Ferdinand737"
@@ -84,6 +78,8 @@ export default function ProfileHeader() {
           <IconButton
             component="a"
             href="mailto:ferdinand@haaben.net"
+            target="_blank"
+            rel="noopener noreferrer"
             color="inherit"
             aria-label="Email"
           >
