@@ -12,7 +12,7 @@ git reset --hard HEAD
 git pull origin master
 
 # Install dependencies
-npm install
+npm install --legacy-peer-deps
 npm install express
 
 # Build the project
