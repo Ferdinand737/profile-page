@@ -6,7 +6,6 @@ import CssBaseline from '@mui/material/CssBaseline';
 import { Box, Tabs, Tab, AppBar } from '@mui/material';
 import { Person, Article } from '@mui/icons-material';
 import AboutMe from './components/AboutMe';
-import Blog from './components/Blog';
 import { StarField } from 'starfield-react';
 
 const darkTheme = createTheme({
@@ -62,34 +61,9 @@ function MainPage() {
         height={windowSize.height}
         style={{ position: 'fixed', top: 0, left: 0, zIndex: -1 }}
       />
-      <AppBar position="static" color="default" elevation={1}>
-        <Tabs
-          value={tabValue}
-          onChange={handleTabChange}
-          centered
-          aria-label="main navigation tabs"
-        >
-          <Tab
-            icon={<Person />}
-            label="About Me"
-            id="tab-0"
-            aria-controls="tabpanel-0"
-          />
-          <Tab
-            icon={<Article />}
-            label="Blog"
-            id="tab-1"
-            aria-controls="tabpanel-1"
-          />
-        </Tabs>
-      </AppBar>
 
       <TabPanel value={tabValue} index={0}>
         <AboutMe />
-      </TabPanel>
-
-      <TabPanel value={tabValue} index={1}>
-        <Blog />
       </TabPanel>
     </Box>
   );
