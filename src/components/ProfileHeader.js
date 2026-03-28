@@ -7,7 +7,7 @@ import {
   Link,
 } from '@mui/material';
 import { GitHub, LinkedIn, Email, Download } from '@mui/icons-material';
-import profilePic from '../images/profile.jpg';
+import profilePic from '../images/profilePic.jpeg';
 
 export default function ProfileHeader() {
   return (
