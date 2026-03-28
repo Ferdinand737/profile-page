@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { Timeline } from '@mui/lab';
-import { Box, Typography } from '@mui/material';
+import { Box, Typography, useMediaQuery, useTheme } from '@mui/material';
 import TimelineEntry from './TimelineEntry';
+import MobileTimelineEntry from './MobileTimelineEntry';
 import TimelineModal from './TimelineModal';
 
 const imageContext = require.context('../images', true, /\.(png|jpe?g|svg)$/);
@@ -466,6 +467,8 @@ const sortedTimelineData = timelineData
 export default function ExperienceTimeline() {
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('md'));
 
   const handleItemClick = (item) => {
     setSelectedItem(item);
@@ -485,16 +488,30 @@ export default function ExperienceTimeline() {
         </Typography>
       </Box>
 
-      <Timeline position="alternate">
-        {sortedTimelineData.map((item, index) => (
-          <TimelineEntry
-            key={`${item.title}-${index}`}
-            {...item}
-            isLast={index === sortedTimelineData.length - 1}
-            onClick={() => handleItemClick(item)}
-          />
-        ))}
-      </Timeline>
+      {isMobile ? (
+        /* Mobile: stacked layout with vertical line */
+        <Box sx={{ px: 2, maxWidth: 600, mx: 'auto' }}>
+          {sortedTimelineData.map((item, index) => (
+            <MobileTimelineEntry
+              key={`${item.title}-${index}`}
+              {...item}
+              onClick={() => handleItemClick(item)}
+            />
+          ))}
+        </Box>
+      ) : (
+        /* Desktop: MUI alternating timeline */
+        <Timeline position="alternate">
+          {sortedTimelineData.map((item, index) => (
+            <TimelineEntry
+              key={`${item.title}-${index}`}
+              {...item}
+              isLast={index === sortedTimelineData.length - 1}
+              onClick={() => handleItemClick(item)}
+            />
+          ))}
+        </Timeline>
+      )}
 
       <TimelineModal
         open={modalOpen}
