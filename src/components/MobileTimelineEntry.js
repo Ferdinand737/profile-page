@@ -93,7 +93,7 @@ export default function MobileTimelineEntry({
           zIndex: 1,
         }}
       >
-        <IconComponent sx={{ fontSize: 14, color: 'white' }} />
+        <IconComponent sx={{ fontSize: 14, color: 'black' }} />
       </Box>
 
       {/* Date and duration */}
