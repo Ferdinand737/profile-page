@@ -5,13 +5,13 @@ import TimelineEntry from './TimelineEntry';
 import MobileTimelineEntry from './MobileTimelineEntry';
 import TimelineModal from './TimelineModal';
 
-const imageContext = require.context('../images', true, /\.(png|jpe?g|svg)$/);
-const allImages = imageContext.keys().reduce((acc, key) => {
-  const parts = key.split('/');
-  if (parts.length === 3) {
-    const folder = parts[1];
+const imageModules = import.meta.glob('../images/*/*.{png,jpe?g,svg}', { eager: true });
+const allImages = Object.entries(imageModules).reduce((acc, [path, mod]) => {
+  const parts = path.split('/');
+  if (parts.length === 4) {
+    const folder = parts[2];
     if (!acc[folder]) acc[folder] = [];
-    acc[folder].push(imageContext(key));
+    acc[folder].push(mod.default);
   }
   return acc;
 }, {});

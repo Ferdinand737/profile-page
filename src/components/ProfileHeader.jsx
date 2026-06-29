@@ -8,6 +8,7 @@ import {
 } from '@mui/material';
 import { GitHub, LinkedIn, Email, Download } from '@mui/icons-material';
 import profilePic from '../images/profilePic.jpeg';
+import resumePdf from '../resume.pdf';
 
 export default function ProfileHeader() {
   return (
@@ -76,7 +77,7 @@ export default function ProfileHeader() {
           </IconButton>
 
           <Link
-            href={require('../resume.pdf')}
+            href={resumePdf}
             download="ferdinand-haaben-resume.pdf"
             sx={{
               display: 'flex',

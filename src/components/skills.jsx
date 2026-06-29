@@ -1,10 +1,12 @@
+import remixIcon from '../images/remix.png';
+
 export default function Skills(props) {
   const getSkillIconUrl = (skill) => {
     const skillIconUrls = {
       // Js technologies
       NodeJs:
         'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg',
-      Remix: require('../images/remix.png'),
+      Remix: remixIcon,
       NextJs:
         'https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg',
       NestJs:
