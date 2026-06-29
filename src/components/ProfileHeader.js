@@ -66,18 +66,7 @@ export default function ProfileHeader() {
 
           <IconButton
             component="a"
-            href="https://www.linkedin.com/in/ferdinand-haaben-a46887208/"
-            target="_blank"
-            rel="noopener noreferrer"
-            color="inherit"
-            aria-label="LinkedIn"
-          >
-            <LinkedIn />
-          </IconButton>
-
-          <IconButton
-            component="a"
-            href="mailto:ferdinand@haaben.net"
+            href="mailto:jobs@haaben.net"
             target="_blank"
             rel="noopener noreferrer"
             color="inherit"

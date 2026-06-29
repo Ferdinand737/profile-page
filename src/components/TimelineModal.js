@@ -47,7 +47,8 @@ function formatDuration(startYear, endYear) {
 function formatDateRange(startYear, endYear) {
   if (!startYear && !endYear) return '';
   if (startYear === endYear) return String(startYear);
-  return `${startYear} - ${endYear}`;
+  const endDisplay = endYear || 'Present';
+  return `${startYear} - ${endDisplay}`;
 }
 
 const modalStyle = {
