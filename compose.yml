@@ -1,0 +1,7 @@
+services:
+  profile-page:
+    build: .
+    container_name: profile-page
+    restart: unless-stopped
+    ports:
+      - "3001:3001"
