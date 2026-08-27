@@ -18,6 +18,29 @@ const allImages = Object.entries(imageModules).reduce((acc, [path, mod]) => {
 
 const timelineData = [
   {
+    name: 'goodfinity',
+    type: 'employment',
+    title: 'Software Developer',
+    organization: 'Goodfinity',
+    location: 'Remote',
+    startYear: 2026,
+    endYear: null,
+    paid: true,
+    description: `Full-time Software Developer at Goodfinity building software to help Canadian charities with impact reporting. Developed, tested, and deployed features end-to-end as part of a small team.`,
+    detailedDescription: `Full-time Software Developer at Goodfinity, a remote-first company building software to help Canadian charities with impact reporting. Worked as part of a small team to develop, test, and deploy features end-to-end across the full stack. Contributed to building and maintaining a production web application used by charitable organizations to measure and communicate their impact. Leveraged a modern technology stack including Next.js, TypeScript, and Material UI on the frontend, with Firebase, PostgreSQL, and AWS supporting backend and infrastructure needs. Used Docker for containerization and deployment workflows. This role required strong collaboration, ownership of features from design through delivery, and the ability to work effectively across a distributed team.`,
+    skills: [
+      'AWS',
+      'Firebase',
+      'NextJs',
+      'Mui',
+      'Docker',
+      'TypeScript',
+      'PostgreSQL',
+    ],
+    url: 'https://goodfinity.ca',
+    images: [],
+  },
+  {
     name: 'nlc',
     type: 'education',
     title: 'Aircraft Maintenance Engineering Diploma',
@@ -441,7 +464,7 @@ const timelineData = [
       'Solidity',
       'Linux',
     ],
-    url: 'https://www.checknix.com',
+    url: 'https://checknix.com',
     images: [],
   },
 ];
@@ -460,7 +483,7 @@ const sortedTimelineData = timelineData
     if (bEnd !== aEnd) {
       return bEnd - aEnd;
     }
-    return b.index - a.index;
+    return b.item.startYear - a.item.startYear;
   })
   .map(({ item }) => item);
 

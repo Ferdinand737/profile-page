@@ -83,6 +83,8 @@ export default function Skills(props) {
         'https://raw.githubusercontent.com/devicons/devicon/master/icons/bitbucket/bitbucket-original.svg',
       Firebase:
         'https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-original.svg',
+      AWS:
+        'https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg',
       //To add
       /*
                 - stripe
@@ -145,6 +147,7 @@ export default function Skills(props) {
     'Confluence',
     'Bitbucket',
     'Firebase',
+    'AWS',
   ];
 
   return (
