@@ -11,4 +11,4 @@ jobs:
       - name: Deploy to VM 200
         run: |
           ssh -o StrictHostKeyChecking=no ferdinand@192.168.1.253 \
-            'cd ~/profile-page && ./deploy.sh'
+            'cd ~/profile-page && git pull origin master && ./deploy.sh'
